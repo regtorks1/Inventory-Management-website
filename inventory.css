@@ -1,0 +1,514 @@
+body{
+    overflow-x: hidden;
+}
+
+.header1{
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+#imageLogo{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin: 2px;
+    position: relative;
+    left: 90px;
+    top: -10px;
+}
+
+.header1 button{
+    position: relative;
+    left: 600px;
+    top: -40px;
+    border: none;
+    background-color: white;
+    color: rgb(105, 105, 112);
+    font-family: CircularMed;
+    font-size: 19px;
+    line-height: 1.2;
+    font-weight: 400px;
+    letter-spacing: 1.25px;
+    
+}
+
+#btnBold{
+    font-weight: bold;
+    border-bottom: 2px solid rgb(171, 88, 54);    
+}
+
+.header1 button:hover{
+      cursor: pointer;
+      color: rgb(171, 88, 54); 
+}
+
+.zmdi{
+    opacity: 0.5;
+}
+
+.ingSamples{
+    text-align: center;
+    margin-bottom: 50px; 
+    margin-top: 15px; 
+}
+
+.ingSamples button{
+    border: none;
+    background-color: white;
+    color: rgb(105, 105, 112);
+    font-family: CircularMed;
+    font-size: 19px;
+    line-height: 1.2;
+    font-weight: 400px;
+    letter-spacing: 1.25px;
+}
+
+#boldUnder{
+    font-weight: bold;
+    border-bottom: 2px solid rgb(171, 88, 54); 
+}
+
+.ingSamples button:hover{
+    cursor: pointer;
+      color: rgb(171, 88, 54);
+}
+
+hr{
+    position: relative;
+    top: 50px;
+    width: 90%;
+    background:#000;
+    opacity: 0.1;
+}
+
+#firstPara p{
+    position: relative;
+    top: 50px;
+    left: 80px;
+    font-family: CircularMed;
+    font-size: 23px;
+    line-height: 1.2;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+}
+#add_Arr{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+}
+
+.grid-design{
+    display: flex;
+    grid-template: 1fr 1fr;
+        box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+        width: 550px;
+        padding: 2px;
+        max-height: 150px;
+        border-radius: 10px;
+        margin: 20px 0px;
+}
+.info{
+    width: 50%;
+}
+.image{
+    width: auto;
+    height: auto;
+}
+img{
+    width: 200px;
+    height: 150px;
+    margin-left: 100px;
+
+}
+
+.grid-design #amount{
+    position: relative;
+    top: 20px;
+    font-size: 17px;
+} 
+
+.grid-design #text{
+    position: relative;
+    top: -15px;
+    font-size: 12px;
+} 
+
+.grid-design #title{
+    font-weight: bold;
+    color:#000
+}
+
+
+.grid-design p{
+    position: relative;
+    left: 20px;
+    background-color: white;
+    color: rgb(105, 105, 112);
+    font-family: CircularMed;
+    font-size: 19px;
+    line-height: 1.2;
+    font-weight: 400px;
+    letter-spacing: 1.25px;
+}
+.click{
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.grid-design:hover{
+    cursor: pointer;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1), 0 5px 10px 0 rgba(0, 0, 0, 0.1); 
+}
+
+
+.grid-design2{
+    position: relative;
+    top : -95px;
+    left: 700px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    width: 40%;
+    padding: 2px;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+.grid-design2 img{
+height: 25%;
+width: 24%;
+position: relative;
+left: 415px;
+top: -133px;
+border-radius: 2%;
+
+}
+
+.grid-design2 #amount2{
+position: relative;
+top: 20px;
+font-size: 17px;
+}
+
+.grid-design2 #text2{
+position: relative;
+top: -15px;
+font-size: 12px;
+}
+
+.grid-design2 #filone{
+font-weight: bold;
+color:#000
+}
+
+
+.grid-design2 p{
+position: relative;
+left: 20px;
+background-color: white;
+color: rgb(105, 105, 112);
+font-family: CircularMed;
+font-size: 19px;
+line-height: 1.2;
+font-weight: 400px;
+letter-spacing: 1.25px;
+}
+
+.grid-design2:hover{
+cursor: pointer;
+box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1), 0 5px 10px 0 rgba(0, 0, 0, 0.1); 
+}
+
+#SecondPara p{
+    position: relative;
+    top: -70px;
+    left: 80px;
+    font-family: CircularMed;
+    font-size: 23px;
+    line-height: 1.2;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+}
+
+
+.grid-design3{
+    position: relative;
+    top : -50px;
+    left: 80px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    width: 40%;
+    padding: 2px;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+.grid-design3 img{
+height: 27%;
+width: 33%;
+position: relative;
+left: 365px;
+top: -130px;
+border-radius: 2%;
+
+}
+
+.grid-design3 #amount3{
+position: relative;
+top: 20px;
+font-size: 17px;
+}
+
+.grid-design3 #text3{
+position: relative;
+top: -15px;
+font-size: 12px;
+}
+
+.grid-design3 #cheese_Platter{
+font-weight: bold;
+color:#000
+}
+
+
+.grid-design3 p{
+position: relative;
+left: 20px;
+background-color: white;
+color: rgb(105, 105, 112);
+font-family: CircularMed;
+font-size: 19px;
+line-height: 1.2;
+font-weight: 400px;
+letter-spacing: 1.25px;
+}
+
+.grid-design3:hover{
+cursor: pointer;
+box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1), 0 5px 10px 0 rgba(0, 0, 0, 0.1); 
+}
+
+.grid-design4{
+    position: relative;
+    top : -200px;
+    left: 700px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    width: 40%;
+    padding: 2px;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+.grid-design4 img{
+height: 27%;
+width: 29%;
+position: relative;
+left: 385px;
+top: -130px;
+border-radius: 2%;
+
+}
+
+.grid-design4 #amount4{
+position: relative;
+top: 20px;
+font-size: 17px;
+}
+
+.grid-design4 #text4{
+position: relative;
+top: -15px;
+font-size: 12px;
+}
+
+.grid-design4 #Ballerina_Gouda{
+font-weight: bold;
+color:#000
+}
+
+
+.grid-design4 p{
+position: relative;
+left: 20px;
+background-color: white;
+color: rgb(105, 105, 112);
+font-family: CircularMed;
+font-size: 19px;
+line-height: 1.2;
+font-weight: 400px;
+letter-spacing: 1.25px;
+}
+
+.grid-design4:hover{
+cursor: pointer;
+box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1), 0 5px 10px 0 rgba(0, 0, 0, 0.1); 
+}
+
+.grid-design5{
+    position: relative;
+    top : -150px;
+    left: 70px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    width: 40%;
+    padding: 2px;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+.grid-design5 img{
+height: 27%;
+width: 24%;
+position: relative;
+left: 415px;
+top: -130px;
+border-radius: 2%;
+
+}
+
+.grid-design5 #amount5{
+position: relative;
+top: 20px;
+font-size: 17px;
+}
+
+.grid-design5 #text5{
+position: relative;
+top: -15px;
+font-size: 12px;
+}
+
+.grid-design5 #Olive_cake{
+font-weight: bold;
+color:#000
+}
+
+
+.grid-design5 p{
+position: relative;
+left: 20px;
+background-color: white;
+color: rgb(105, 105, 112);
+font-family: CircularMed;
+font-size: 19px;
+line-height: 1.2;
+font-weight: 400px;
+letter-spacing: 1.25px;
+}
+
+.grid-design5:hover{
+cursor: pointer;
+box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1), 0 5px 10px 0 rgba(0, 0, 0, 0.1); 
+}
+
+#ThirdPara p{
+    position: relative;
+    top: -170px;
+    left: 80px;
+    font-family: CircularMed;
+    font-size: 23px;
+    line-height: 1.2;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+}
+ .ingSamples #Home{
+     margin-left: 100px;
+}
+
+.modal_container{
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    pointer-events: auto;
+    visibility:hidden;
+ 
+}
+
+
+.modal{
+    background-color: white;
+    width: 500px;
+    padding: 80px;
+
+}
+
+.modal h5{
+    position: relative;
+    top: -60px;
+    left: 200px;
+    font-weight: bold;
+    font-family: CircularMed;
+    color:rgb(105, 105, 112);
+    font-size: 20px;
+    letter-spacing: 1.25px;
+}
+
+.modal #firstlabel{
+    position: relative;
+    top: -50px;
+    left: 100px;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+}
+
+#product_type{
+    position: relative;
+    left: 15px;
+}
+
+.modal #secondlabel{
+    position: relative;
+    top: -10px;
+    left: -160px;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+    
+}
+
+ #quantity_type{
+    position: relative;
+    left: 350px;
+    top: -20px;
+}
+
+.modal #thirdlabel{
+    position: relative;
+    top: 10px;
+    left: -90px;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+}
+
+#description_type{
+    position: relative;
+    left: -5px;
+
+}
+
+.modal button{
+    position: relative;
+    top: 50px;
+    left: 190px;
+    background-color: rgb(171, 88, 54); ;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+} 
+
+.modal button:hover{
+    cursor: pointer;
+    background-color: grey;
+    color: rgb(171, 88, 54); 
+}
+
+.modal_container1{
+    z-index: 10;
+    border: 2px  solid red;
+}
+
+
+
+
+

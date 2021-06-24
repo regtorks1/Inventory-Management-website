@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Product</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="edit.css">
+    
+</head>
+<body>
+    <div class="header1">
+        <img src="img/53872Secondarylogo.png" id="imageLogo">
+        <button id="btnClock"><i class="zmdi zmdi-time"></i> 11:00 am |</button>
+        <button><i class="zmdi zmdi-pin"></i> Your Address |</button>
+        <button><i class="zmdi zmdi-shopping-cart"></i> Cart Item |</button>
+    </div>
+    <div class="container">
+        <div class="modal_container" id="toggle_modal">
+            <div class="modal">
+                <h5>EDIT ITEM</h5>
+                <label id="firstlabel">
+                    Product:
+                    <input type="text" id="product_type"><br>
+                </label>
+
+                <label id="secondlabel">
+                    Quantity:
+                </label>
+                    <input type="text" id="quantity_type"><br>
+                
+                <label id="thirdlabel">
+                    Description:
+                    <input type="text" id="description_type"><br>
+                </label>
+              <a href="index.html"> <button id="modal_close" onclick="closeModal()">Close</button></a>
+                <button id="modal_add" onclick="save()">Save</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="/editItem.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+
+
+
+.modal{
+    background-color:white;
+    width: 500px;
+    padding: 80px;
+
+}
+
+.modal h5{
+    position: relative;
+    top: -60px;
+    left: 500px;
+    font-weight: bold;
+    font-family: CircularMed;
+    color:rgb(105, 105, 112);
+    font-size: 20px;
+    letter-spacing: 1.25px;
+}
+
+.modal #firstlabel{
+    position: relative;
+    top: -50px;
+    left: 400px;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+}
+
+#product_type{
+    position: relative;
+    left: 15px;
+}
+
+.modal #secondlabel{
+    position: relative;
+    top: -20px;
+    left: 390px;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+    
+}
+
+ #quantity_type{
+    position: relative;
+    left: 410px;
+    top: -20px;
+}
+
+.modal #thirdlabel{
+    position: relative;
+    top: 10px;
+    left: 390px;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+}
+
+#description_type{
+    position: relative;
+    left: -5px;
+
+}
+
+.modal button{
+    position: relative;
+    top: 50px;
+    left: 500px;
+    background-color: rgb(171, 88, 54); ;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+} 
+
+.modal button:hover{
+    cursor: pointer;
+    background-color: grey;
+    color: rgb(171, 88, 54); 
+}
+
+
+#imageLogo{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin: 2px;
+    position: relative;
+    left: 90px;
+    top: -10px;
+}
+
+.header1 button{
+    position: relative;
+    left: 600px;
+    top: -40px;
+    border: none;
+    background-color: white;
+    color: rgb(105, 105, 112);
+    font-family: CircularMed;
+    font-size: 19px;
+    line-height: 1.2;
+    font-weight: 400px;
+    letter-spacing: 1.25px;
+    
+}
+
+#btnBold{
+    font-weight: bold;
+    border-bottom: 2px solid rgb(171, 88, 54);    
+}
+
+.header1 button:hover{
+      cursor: pointer;
+      color: rgb(171, 88, 54); 
+}
+
+.zmdi{
+    opacity: 0.5;
+}
+

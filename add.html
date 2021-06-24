@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inventory.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <title>Add Items</title>
+</head>
+
+<body>
+
+    <div class="header1">
+        <img src="img/53872Secondarylogo.png" id="imageLogo">
+        <button id="Add item" class="open_modal" onclick="showModal()">Add Item</button>
+        <button id="btnClock"><i class="zmdi zmdi-time"></i> 11:00 am |</button>
+        <button><i class="zmdi zmdi-pin"></i> Your Address |</button>
+        <button><i class="zmdi zmdi-shopping-cart"></i> Cart Item |</button>
+    </div>
+
+    <div class="ingSamples">
+        <button id="boldUnder">Total Categories: 5</button>
+        <button>Total Quantities: 10,000</button>
+        <button>Total Items: 10</button>
+        <a href ="index.html"><button id="Home" onclick="home()">Home</button></a>
+    </div>
+    <div id="add_Arr">
+        <!-- <div id="firstPara">
+            <p>Bread</p>
+        </div> -->
+
+        <div class="grid-design">
+            <div class="info">
+                <p id="title"></p>
+                <p id="text"></p>
+                <p id="amount"></p>
+            </div>
+            <img src="img/Ciabatta_Bread.jpg" id="ciabata_img">
+        </div>
+
+        <div class="grid-design">
+            <div class="info">
+                <p id="title"></p>
+                <p id="text"></p>
+                <p id="amount"></p>
+            </div>
+            <img src="img/Filone_bread.jpg" id="filone_img">
+        </div>
+
+        <!-- <div id="SecondPara">
+            <p>Cheese</p>
+        </div> -->
+
+        <div class="grid-design">
+            <div class="info">
+                <p id="title"></p>
+                <p id="text"></p>
+                <p id="amount"></p>
+            </div>
+            <img src="img/Cheese Platter.jpg" id="cheesePl_img">
+        </div>
+
+        <div class="grid-design">
+            <div class="info">
+                <p id="title"></p>
+                <p id="text"></p>
+                <p id="amount"></p>
+            </div>
+            <img src="img/Ballerina Gouda.jpg" id="ballerina_img">
+        </div>
+
+        <!-- <div id="ThirdPara">
+            <p>Pastries</p>
+        </div> -->
+
+        <div class="grid-design">
+            <div class="info">
+                <p id="title"></p>
+                <p id="text"></p>
+                <p id="amount"></p>
+            </div>
+            <img src="img/Olive Oil Cake.jpeg" id="olive_img">
+        </div>
+    </div>
+    </div>
+
+
+    <div class="modal_container" id="toggle_modal">
+        <div class="modal">
+            <h5>ADD ITEM</h5>
+            <label id="firstlabel">
+                Product:
+                <input type="text" id="product_type">
+            </label>
+
+            <label id="secondlabel">
+                Quantity:
+                <input type="text" id="quantity_type">
+            </label>
+            <label id="thirdlabel">
+                Description:
+                <input type="text" id="description_type">
+            </label>
+
+            <button id="modal_close" onclick="closeModal()">Close</button>
+            <button id="modal_add" onclick="add_item()">Add Item</button>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
